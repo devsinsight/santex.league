@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Hangfire" Version="1.6.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Santex.League.Domain\Santex.League.Domain.csproj" />
+    <ProjectReference Include="..\Santex.League.Proxy\Santex.League.Proxy.csproj" />
+    <ProjectReference Include="..\Santex.League.Repository\Santex.League.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

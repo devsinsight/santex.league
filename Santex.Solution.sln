@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.API", "Santex.League.API\Santex.League.API.csproj", "{FFC1F10D-226C-4648-8BBF-1511BA6F0B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.Proxy", "Santex.League.Proxy\Santex.League.Proxy.csproj", "{E02FF134-BD13-410B-9A9C-663808AF7B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.Domain", "Santex.League.Domain\Santex.League.Domain.csproj", "{BB2E9693-57A4-4C73-A348-5D22FA4D395B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.Repository", "Santex.League.Repository\Santex.League.Repository.csproj", "{1BD58C11-22AC-4A8F-9121-C643ECE79536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.Queue", "Santex.League.Queue\Santex.League.Queue.csproj", "{0C083FD6-6AD1-4368-9713-3EE5CDA104C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santex.League.Test", "Santex.League.Test\Santex.League.Test.csproj", "{CC8796BD-C9D9-48C1-8691-B5661DB47F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFC1F10D-226C-4648-8BBF-1511BA6F0B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC1F10D-226C-4648-8BBF-1511BA6F0B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC1F10D-226C-4648-8BBF-1511BA6F0B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC1F10D-226C-4648-8BBF-1511BA6F0B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02FF134-BD13-410B-9A9C-663808AF7B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02FF134-BD13-410B-9A9C-663808AF7B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02FF134-BD13-410B-9A9C-663808AF7B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02FF134-BD13-410B-9A9C-663808AF7B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2E9693-57A4-4C73-A348-5D22FA4D395B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2E9693-57A4-4C73-A348-5D22FA4D395B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2E9693-57A4-4C73-A348-5D22FA4D395B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2E9693-57A4-4C73-A348-5D22FA4D395B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD58C11-22AC-4A8F-9121-C643ECE79536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD58C11-22AC-4A8F-9121-C643ECE79536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD58C11-22AC-4A8F-9121-C643ECE79536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD58C11-22AC-4A8F-9121-C643ECE79536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C083FD6-6AD1-4368-9713-3EE5CDA104C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C083FD6-6AD1-4368-9713-3EE5CDA104C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C083FD6-6AD1-4368-9713-3EE5CDA104C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C083FD6-6AD1-4368-9713-3EE5CDA104C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8796BD-C9D9-48C1-8691-B5661DB47F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8796BD-C9D9-48C1-8691-B5661DB47F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8796BD-C9D9-48C1-8691-B5661DB47F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8796BD-C9D9-48C1-8691-B5661DB47F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCAB8F48-9B5C-4748-BDE6-7647D671930E}
+	EndGlobalSection
+EndGlobal
